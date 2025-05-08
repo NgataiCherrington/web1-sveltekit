@@ -6,7 +6,8 @@
 
 <Header />
 
-<main>
+<main class="card-grid">
+    <Card />
     <Card />
     <Card />
 </main>
@@ -16,5 +17,10 @@
 <style>
     main {
         display: flex;
+    }
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
     }
 </style>
