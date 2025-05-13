@@ -1,8 +1,5 @@
 <script>
-    let quote = {
-        quoteText: "I think therefore, I am",
-        author: "Rene Descartes"
-    }
+    let { quote } = $props();
 </script>
 
 <div>
