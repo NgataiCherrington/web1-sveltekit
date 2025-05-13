@@ -16,9 +16,24 @@
         {
             quoteText: "There is nothing permanent except change",
             author: "Heraclitus"
+        },
+        {
+            quoteText: "Love is composed of a single soul inhabiting two bodies",
+            author: "Heraclitus"
         }
     ];
 
+
+    let cards = [
+        {
+            title: "My Card",
+            user: {
+                userName: "@ngaaats",
+                img: "https://i.gifer.com/origin/2f/2f548a4cff82755977ae34fe08e4ac50_w200.gif"
+            },
+            info: "Info goes here"
+        }
+    ]
 
 </script>
 
@@ -28,9 +43,9 @@
 {/each}
 
 <main class="card-grid">
-    <Card />
-    <Card />
-    <Card />
+   {#each details as detail}
+        <Card {detail}/>
+   {/each}
 </main>
 
 <Footer />
