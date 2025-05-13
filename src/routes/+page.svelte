@@ -4,14 +4,28 @@
     import Card from "$lib/Card.svelte";
     import Quote from "$lib/Quote.svelte";
 
-    let quote = {
-        quoteText: "I think therefore, I am",
-        author: "Rene Descartes"
-    }
+    let quotes = [
+        {
+            quoteText: "I think therefore, I am",
+            author: "Rene Descartes"
+        },
+        {
+            quoteText: "One think i know, that i know nothing. This is the source of my wisdom.",
+            author: "Socrates"
+        },
+        {
+            quoteText: "There is nothing permanent except change",
+            author: "Heraclitus"
+        }
+    ];
+
+
 </script>
 
 <Header />
-<Quote {quote}/>
+{#each quotes as quote}
+    <Quote {quote}/>
+{/each}
 
 <main class="card-grid">
     <Card />
