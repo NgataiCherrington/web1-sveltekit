@@ -1,11 +1,12 @@
 <script>
-   import Picture from "./Picture.svelte";
    import Details from "./Details.svelte";
+
+   let { detail } = $props(); 
+   let user = detail.user;
 </script>
 
 <div>
-    <Picture />
-    <Details />
+    <Details {detail}/>
 </div>
 
 <style>
