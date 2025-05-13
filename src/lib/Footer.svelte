@@ -9,5 +9,6 @@
 <style>
     footer {
         background-color:honeydew;
+        text-align: center;
     }
 </style>
