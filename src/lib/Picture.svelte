@@ -10,5 +10,7 @@
 <style>
     img {
         max-width: 150px;
+        display: block;
+        
     }
 </style>
