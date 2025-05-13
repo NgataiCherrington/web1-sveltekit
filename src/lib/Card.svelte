@@ -16,6 +16,8 @@
         box-shadow: 2px 2px #333;
         margin: 0 1em 1em 0;
         padding: 0.8em;
+        display: flex;
+        flex-direction: column;
     }
 
 </style>
