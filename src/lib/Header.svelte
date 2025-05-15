@@ -3,3 +3,4 @@
 </script>
 
 <h1>Ngatai's Website </h1>
+<Navigation />
