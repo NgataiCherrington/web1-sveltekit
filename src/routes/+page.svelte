@@ -3,7 +3,7 @@
     import Footer from "$lib/Footer.svelte";
     import Card from "$lib/Card.svelte";
     import Quote from "$lib/Quote.svelte";
-  import Navigation from "$lib/Navigation.svelte";
+    import Navigation from "$lib/Navigation.svelte";
 
     let quotes = [
         {
@@ -40,7 +40,6 @@
 
 
 <Header />
-<Navigation />
 {#each quotes as quote}
     <Quote {quote}/>
 {/each}
