@@ -6,9 +6,13 @@
     <div class="container">
       <div class="main_list" id="mainListDiv">
         <ul>
-          <li><a href="+page.svelte">Home</a></li>
-          <li><a href="Questions.svelte">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/blog/one">Blog one</a></li>
+          <li><a href="/blog/two">Blog two</a></li>
+          <li><a href="/blog/three">Blog three</a></li>
+          <li><a href="/blog/four">Blog four</a></li>
+
         </ul>
       </div>
     </div>
