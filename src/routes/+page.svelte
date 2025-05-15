@@ -3,6 +3,7 @@
     import Footer from "$lib/Footer.svelte";
     import Card from "$lib/Card.svelte";
     import Quote from "$lib/Quote.svelte";
+  import Navigation from "$lib/Navigation.svelte";
 
     let quotes = [
         {
@@ -37,15 +38,15 @@
 
 </script>
 
+
 <Header />
+<Navigation />
 {#each quotes as quote}
     <Quote {quote}/>
 {/each}
 
 <main class="card-grid">
-   {#each details as detail}
-        <Card {detail}/>
-   {/each}
+   
 </main>
 
 <Footer />
