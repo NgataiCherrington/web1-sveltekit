@@ -1,9 +1,7 @@
 <script>
-    import Header from "$lib/Header.svelte";
+
     import Blog from "$lib/Blog.svelte";
 </script>
-
-<Header />
 
 <h2>My Blog</h2>
 
