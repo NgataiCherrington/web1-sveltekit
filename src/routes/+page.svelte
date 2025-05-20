@@ -40,6 +40,7 @@
 
 
 <Header />
+
 {#each quotes as quote}
     <Quote {quote}/>
 {/each}
