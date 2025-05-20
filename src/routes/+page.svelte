@@ -1,6 +1,4 @@
 <script>
-    import Header from "$lib/Header.svelte"
-    import Footer from "$lib/Footer.svelte";
     import Card from "$lib/Card.svelte";
     import Quote from "$lib/Quote.svelte";
     import Navigation from "$lib/Navigation.svelte";
@@ -38,9 +36,6 @@
 
 </script>
 
-
-<Header />
-
 {#each quotes as quote}
     <Quote {quote}/>
 {/each}
@@ -49,7 +44,7 @@
    
 </main>
 
-<Footer />
+
 
 <style>
     main {
