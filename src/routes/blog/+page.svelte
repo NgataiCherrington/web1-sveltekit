@@ -3,5 +3,4 @@
     import Blog from "$lib/Blog.svelte";
 </script>
 
-<Header />
 <Blog />
